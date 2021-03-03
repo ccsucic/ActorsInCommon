@@ -4,10 +4,10 @@ import numpy as np
 from functools import reduce
 from itertools import combinations
 
-df_com = pd.read_excel("Community_Cast.xlsx")
-df_par = pd.read_excel("Parks_And_Rec_Cast.xlsx")
-df_off = pd.read_excel("Office_Cast.xlsx")
-df_roc = pd.read_excel("30_Rock_Cast.xlsx")
+df_com = pd.read_excel("Show_Testing_Data/Community_Cast.xlsx")
+df_par = pd.read_excel("Show_Testing_Data/Parks_And_Rec_Cast.xlsx")
+df_off = pd.read_excel("Show_Testing_Data/Office_Cast.xlsx")
+df_roc = pd.read_excel("Show_Testing_Data/30_Rock_Cast.xlsx")
 
 data = [df_com["Name"], df_par["Name"], df_off["Name"], df_roc["Name"]]
 headers = ["Community Names", "ParksAndRec Names", "Office Names", "30 Rock Names"]
