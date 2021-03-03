@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  2 10:46:35 2021
+# This file will contain the Scrapy scraper used to scrape IMDB
+# Code to come shortly!
 
-@author: ccsuc
-"""
+import scrapy
